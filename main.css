@@ -83,6 +83,7 @@ body {
 
 .add-item {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -98,14 +99,21 @@ body {
 }
 
 .button {
-	width: 20%;
+	width: 15%;
+	height: 30px;
+	border: 1px solid white;
 	background-color: #F09397;
 	border-radius: 5px;
-	border-width: 0px;
-	font-size: 16px;
+	font-size: 100%;
 	color: #FFFFFF;
 	display: inline-block;
 	position: relative;
+}
+
+p {
+	color: #454545;
+	line-height: 150%;
+	text-align: center;
 }
 
 .item-list {
@@ -117,5 +125,21 @@ body {
 li {
 	border: 1px solid white;
 	padding-left: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
 }
 
+.reset-button {
+
+}
+
+.clear-list {
+	border: 1px solid white;
+	background-color: #F09397;
+	color: #FFFFFF;
+	font-size: 100%;
+	border-radius: 5px;
+	height: 30px;
+	margin-left: 40%;
+	margin-bottom: 20px;
+}
