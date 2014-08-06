@@ -3,18 +3,20 @@
 <head>
   <link rel="stylesheet" href="main.css" type="text/css"/>
   <meta charset="UTF-8">
-	<title>Shopping List</title>
+  <title>Shopping List</title>
 </head>
 
 <body>
 
-	<div class="notepad">
+  <div class="notepad">
 		<div class="title">Shopping List:</div>
 		<div class="entrybox">
 			<form class="add-item">
 				<input class="type" type="text" name="item" placeholder="Type Item Name">
 				<input class="button" type="submit" value="Add Item">
 			</form>
+			<p>Click once to cross out an item.</p>
+			<p>Double click to delete the item.</p>
 		</div>
 		<div class="item-list">
 			<ul>
@@ -23,6 +25,9 @@
 				<li>Milk</li>
 				<li>Eggs</li>
 			</ul>
+		</div>
+		<div class="reset-button">
+			<button type="reset" class="clear-list">Clear List</button>
 		</div>
 	</div>
 
