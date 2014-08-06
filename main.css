@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+	width: 100%;
+}
+
+body {
+	background-image: url('http://uvahealth.com/blog/wp-content/uploads/2011/09/grocery-bag-woman.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: Helvetica;
+}
+
+/*.notepad {
+	background-image: url('http://timothylobrien.com/wp-content/uploads/2012/08/img-blog-notepad.png');
+	background-repeat: no-repeat;
+	background-size: 400px;
+	z-index: 1;
+	margin-top: 20px;
+}*/
+
+.notepad {
+	background-color: rgba(0,0,0,.1);
+	width: 40%;
+	border-radius: 30px;
+	margin: 15px;
+	display: inline-block;
+	position: relative;
+}
+
+.title {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 250%;
+	color: #454545;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+.add-item {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.type {
+	width: 65%;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 10px;
+	display: inline-block;
+	position: relative;
+
+}
+
+.button {
+	width: 20%;
+	background-color: #F09397;
+	border-radius: 5px;
+	border-width: 0px;
+	font-size: 16px;
+	color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+}
+
+.item-list {
+	margin: 20px;
+	color: #454545;
+	line-height: 200%;
+}
+
+li {
+	border: 1px solid white;
+	padding-left: 10px;
+}
+
