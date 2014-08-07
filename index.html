@@ -4,6 +4,8 @@
   <link rel="stylesheet" href="main.css" type="text/css"/>
   <meta charset="UTF-8">
   <title>Shopping List</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
 </head>
 
 <body>
@@ -19,11 +21,10 @@
 			<p>Double click to delete the item.</p>
 		</div>
 		<div class="item-list">
-			<ul>
-				<li>Examples</li>
-				<li><strike>Bread</strike></li> <!--crosses out items that have been clicked once-->
-				<li>Milk</li>
+			<ul class="ul_current">
 				<li>Eggs</li>
+				<li>Milk</li>
+				<li><strike>Bread</strike></li> <!--crosses out items that have been clicked once-->
 			</ul>
 		</div>
 		<div class="reset-button">
