@@ -54,14 +54,6 @@ body {
 	font-family: Helvetica;
 }
 
-/*.notepad {
-	background-image: url('http://timothylobrien.com/wp-content/uploads/2012/08/img-blog-notepad.png');
-	background-repeat: no-repeat;
-	background-size: 400px;
-	z-index: 1;
-	margin-top: 20px;
-}*/
-
 .notepad {
 	background-color: rgba(0,0,0,.1);
 	width: 40%;
@@ -80,13 +72,11 @@ body {
 	padding-top: 10px;
 }
 
-
 .add-item {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
-
 
 .type {
 	width: 65%;
@@ -95,7 +85,6 @@ body {
 	margin-left: 10px;
 	display: inline-block;
 	position: relative;
-
 }
 
 .button {
@@ -129,8 +118,12 @@ li {
 	margin-bottom: 5px;
 }
 
-.reset-button {
-
+.x_box {
+	margin-left: 5px;
+	margin-right: 15px;
+	background-color: #F09397;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
 }
 
 .clear-list {
@@ -146,4 +139,5 @@ li {
 
 .line-through {
 	text-decoration: line-through;
+	color: #BE5D7C;
 }
