@@ -1,24 +1,28 @@
 $(document).ready(function() {
-	
+
+	var attachRemove = function() {
+	  $('.x_box').on('click', function(e) {
+      $(e.target).parent().remove();
+    });
+	}
+
+	attachRemove();
+
 	$('form').on('submit', function(e) {
 		e.preventDefault();
 		var new_item = $('.type').val()
-		$('.ul_current').append('<li><button class="x_box">X</button>' + new_item + '</li>');
-		$('.type').val('');
-		attachRemove();
+		if (new_item == '') {
+		}
+		else {
+			$('.ul_current').append('<li><button class="x_box">X</button>' + new_item + '</li>');
+			$('.type').val('');
+			attachRemove();
+		}
 	});
 
 	$('.ul_current').on('click', function(e) {
 		$(e.target).toggleClass('line-through');
 	});
-
-	// if you adding a new button it doesn't hear the same instructions as all the other buttons did when the page loaded
-	// to do something twice, save it as a variable
-	var attachRemove = function() {
-	$('.x_box').on('click', function(e) {
-        $(e.target).parent().remove();
-   });
-	}
 	
 	$('.reset-button').on('click', function(e) {
 		e.preventDefault();
