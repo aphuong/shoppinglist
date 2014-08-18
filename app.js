@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	var attachRemove = function() {
-	  $('.x_box').on('click', function(e) {
+	  $('.x_box').click(function(e) {
       $(e.target).parent().remove();
     });
 	}
@@ -25,11 +25,11 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.ul_current').on('click', function(e) {
+	$('.ul_current').click(function(e) {
 		$(e.target).toggleClass('line-through');
 	});
 	
-	$('.reset-button').on('click', function(e) {
+	$('.reset-button').click(function(e) {
 		e.preventDefault();
 		$('ul').empty();
 	});
