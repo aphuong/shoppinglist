@@ -11,8 +11,13 @@ $(document).ready(function() {
 	$('form').on('submit', function(e) {
 		e.preventDefault();
 		var new_item = $('.type').val()
+		
+		//if the input is an empty string, don't do anything
 		if (new_item == '') {
 		}
+		//else if input is an empty space, don't do anything 
+		
+		//else append the item to the list
 		else {
 			$('.ul_current').append('<li><button class="x_box">X</button>' + new_item + '</li>');
 			$('.type').val('');
@@ -30,9 +35,4 @@ $(document).ready(function() {
 	});
 
 });
-
-// 1. user clicks submit
-// 2. browser looks at the form element to see where the info is getting sent to
-// 2.5 jquery will stop the form from being sent in order to do some stuff to the data.
-// 3. browser gathers up all inputs data inside of form and sends it to the url in the 'action'
 
