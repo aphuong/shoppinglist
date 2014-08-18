@@ -45,12 +45,14 @@ table {
 
 html {
 	width: 100%;
+	min-height: 100%;
+	background-image: url('http://uvahealth.com/blog/wp-content/uploads/2011/09/grocery-bag-woman.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
-	background-image: url('http://uvahealth.com/blog/wp-content/uploads/2011/09/grocery-bag-woman.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
+
 	font-family: Helvetica;
 }
 
